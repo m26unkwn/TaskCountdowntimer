@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
-
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="" href="https://fonts.google.com/specimen/Red+Hat+Text" rel="stylesheet">
+    <title>Frontend Mentor | Launch countdown timer</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,17 +17,57 @@
   </style>
 </head>
 <body>
+  <section class="main">
+    <div class="container">
+      <h1>we're Launching soon</h1>
+      <div class="countdown row">
+        <div class="col">
+          
+          <div class="value-details">
+            <div class="halfCircle-left"></div>
+            <p id="days" class="value"></p>
+            <div class="halfCircle-right"></div>
+          </div>
+          <p class="title">Days</p>
+        </div>
+        <div class="col">
+          <div class="value-details">
+            <div class="halfCircle-left"></div>
+            <p id="hours" class="value"></p>
+            <div class="halfCircle-right"></div>
+          </div>
+          <p class="title">Hours</p>
+        </div>
+        <div class="col">
+          <div class="value-details">
+            <div class="halfCircle-left"></div>
+            <p id="mins" class="value" ></p>
+            <div class="halfCircle-right"></div>
+          </div>
+          <p class="title">Minutes</p>
+        </div>
+        <div class="col">
+          <div class="value-details">
+            <div class="halfCircle-left"></div>
+            <p id="secs" class="value"></p>
+            <div class="halfCircle-right"></div>
+          </div>
+          <p class="title">Seconds</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="social-sites">
+        <a href="#" class="social-link"><i class="fab fa-facebook-square "></i></a>
+        <a href="#" class="social-link" ><i class="fab fa-pinterest"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+      </div>
 
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
+    </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
+  
 </body>
 </html>

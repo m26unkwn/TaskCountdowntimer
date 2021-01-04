@@ -1,0 +1,182 @@
+*,*::after,*::before
+{
+    box-sizing: border-box;
+}
+
+h1{
+    color:white;
+    letter-spacing: 0.3em; 
+    margin-bottom:2em ;
+
+}
+h1,p{
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 0.9rem;
+    background-image: url("images/bg-stars.svg");
+    background-color:hsl(235, 16%, 14%) ;
+    margin:9.5em 0 0 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.countdown{
+    width:90%;
+    margin: 0 auto;
+}
+.row{
+    display:flex;
+    justify-content: space-evenly;
+}
+.col{
+    width:25%;  
+}
+.value-details
+{
+    width:80%;
+    color:hsl(345, 95%, 68%) ;
+    background: linear-gradient(hsl(236, 25%, 23%)50%, hsl(236, 21%, 26%) 50%);
+    box-shadow: 0 10px 10px hsl(235, 29%, 9%);
+    padding:0.6em 1em;
+    border-radius: 7px;  
+    position: relative;
+}
+.halfCircle-left,.halfCircle-right{
+    height: 8px;
+    width: 5px;
+
+    background-color:hsl(235, 16%, 14%) ;
+    position: absolute;
+    top:1.7em;
+}
+.halfCircle-left{
+    left:0;
+    border-radius: 0 90px 90px 0;
+}
+.halfCircle-right
+{
+     right:0;
+     border-radius: 90px 0 0 90px;
+}
+.value{
+    font-size: 2rem;
+    padding:0;
+    margin: 0 auto;
+   
+}
+.title{
+    margin-top: 2em;
+    width:75%;
+    color:hsl(237, 18%, 59%);
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-size: 0.5rem;  
+}
+footer{
+
+    background-image: url("images/pattern-hills.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 4em;
+    text-align: center;
+     
+
+}
+.fab{ 
+    color:hsl(237, 18%, 59%);
+    font-size:1.8rem;
+ }
+.fab:hover{
+    color:hsl(345, 95%, 68%);
+    cursor: pointer;
+}
+.social-link+.social-link{
+    padding-left:2em;
+}
+@media screen and (min-width:700px)
+{
+    body{
+        font-size: 1rem;
+    }
+  
+    .container{
+        width:90%;
+    }
+    .value-details{
+        width: 80%;
+    }
+    .value{
+        font-size: 4rem;
+       
+    }
+    .halfCircle-left,.halfCircle-right{
+      
+        top:2.8em; 
+    }
+    .title{
+        width:80%;
+        font-size: 0.9rem;
+    }
+
+}
+@media screen and (min-width:1200px)
+{
+    body{
+        font-size: 0.9rem;
+    }
+    .main{
+        margin:0;
+    }
+    h1{
+        margin-bottom: 5em;
+    }
+    .container{
+        width:73%;
+    }
+    .countdown
+    {
+    width:80%;
+  
+    }
+    .value-details
+   {
+    width:80%;
+    padding: 1.6em ;
+
+    
+    }
+    .value{
+        font-size: 4.5rem;
+    }
+    .title{
+        width:85%;
+        font-size: 0.8rem;
+      
+    }
+    .halfCircle-left,.halfCircle-right{
+        height:10px;
+        width:8px;  
+        top:4.4em; 
+    }
+    footer{
+        top:42em;
+        padding:7em;
+    }
+    .fab{ 
+        
+        font-size:1.5rem;
+     }
+
+    .social-link+.social-link{
+        padding-left:2em;
+    }
+
+}
