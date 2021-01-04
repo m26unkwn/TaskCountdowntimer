@@ -2,17 +2,17 @@
 {
     box-sizing: border-box;
 }
-
 h1{
-    color:white;
-    letter-spacing: 0.3em; 
-    margin-bottom:2em ;
-
+    color: white;
+    letter-spacing: 0.3em;
+    margin-bottom: 2em;
 }
 h1,p{
     text-transform: uppercase;
+
 }
 body{
+    font-weight: 700;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 0.9rem;
     background-image: url("images/bg-stars.svg");
@@ -20,11 +20,13 @@ body{
     margin:9.5em 0 0 0;
 }
 .container{
-    width: 100%;
-    margin: 0 auto;
+    width:100%;
+    margin:0 auto;
     text-align: center;
+
 }
-.countdown{
+.countdown
+{
     width:90%;
     margin: 0 auto;
 }
@@ -45,10 +47,12 @@ body{
     border-radius: 7px;  
     position: relative;
 }
-.halfCircle-left,.halfCircle-right{
-    height: 8px;
-    width: 5px;
 
+.halfCircle-left,.halfCircle-right
+{
+    height:8px;
+    width:5px;
+    
     background-color:hsl(235, 16%, 14%) ;
     position: absolute;
     top:1.7em;
@@ -68,6 +72,7 @@ body{
     margin: 0 auto;
    
 }
+
 .title{
     margin-top: 2em;
     width:75%;
